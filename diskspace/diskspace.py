@@ -58,7 +58,8 @@ def bytes_to_readable(blocks):
                 path='str',
                     largest_size='int,>=0',
                         total_size='int,>=0',
-                            depth='int,>=0')
+                            depth='int,>=0',
+                                returns='None')
 def print_tree(file_tree, file_tree_node, path, largest_size, total_size,
                depth=0):
 
