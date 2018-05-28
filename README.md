@@ -8,7 +8,11 @@ Install
 =======
 
 ```python
-python setup.py install
+pip2 install PyContracts
+```
+
+```python
+sudo python2 setup.py install
 ```
 
 Usage
